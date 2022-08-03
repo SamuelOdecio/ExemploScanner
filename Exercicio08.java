@@ -9,13 +9,14 @@ média das pessoas com menos de 10 anos.*/
 public class Exercicio08 {
 
     public static void main(String[] args) {
-        String nomes[] = new String[5];
-        int idade[] = new int[5];
-        int altura[] = new int[5];
-        int peso[] = new int[5];
+        int tamanho = 2;
+        String nomes[] = new String[tamanho];
+        int idade[] = new int[tamanho];
+        int altura[] = new int[tamanho];
+        int peso[] = new int[tamanho];
         String aux;
-        int contador, auxiliar;
-        for (int i = 0; i <= 20; i++) {
+        int contador = 0, auxiliar;
+        for (int i = 0; i < tamanho; i++) {
             nomes[i] = JOptionPane.showInputDialog("PESSOA " + (i + 1) + " DIGITE SEU NOME: ");
             aux = JOptionPane.showInputDialog("PESSOA " + (i + 1) + " DIGITE SEU PESO: ");
             peso[i] = Integer.parseInt(aux);
@@ -25,15 +26,15 @@ public class Exercicio08 {
             altura[i] = Integer.parseInt(aux);
 
         }
-        auxiliar = idade[0];
-        for (int i = 1; i <= 20; i++) {
+        auxiliar = idade[tamanho];
+        for (int i = 0; i <= tamanho; i++) {
             if (auxiliar < idade[i]) {
                 auxiliar = idade[i];
                 contador = i;
-                
+
             }
         }
-        
-        JOptionPane.showMessageDialog(null, "O Nome da Pessoa mais velha é: "  );
+
+        JOptionPane.showMessageDialog(null, "O Nome da Pessoa mais velha é: " + nomes[contador]);
     }
 }
