@@ -15,3 +15,14 @@ LISTA DE EXERCICIOS - JAVA.
 14 - Os números primos possuem várias aplicações dentro da Computação, por exemplo na criptografia. Um número primo é aquele que é divisível apenas por um e por ele mesmo. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo.
 15 - Encontrar números primos é uma tarefa difícil. Faça um programa que gera uma lista dos números primos existentes entre 1 e um número inteiro informado pelo usuário.
 16 -Desenvolva um programa que faça a tabuada de um número qualquer inteiro que será digitado pelo usuário, mas a tabuada não deve necessariamente iniciar em 1 e terminar em 10, o valor inicial e final devem ser informados também pelo usuário.
+17 - Leia um vetor de 10 posições de elementos inteiros. Contar e escrever quantos valores pares ele possui.
+18 - Fazer um programa para ler 15 valores inteiros e, em seguida, mostrar todos os valores lidos juntamente com o maior, o menor e a média dos valores.
+19 - Faça um programa que leia um vetor de 10 posições e verifique se existem valores iguais, caso exista, imprima na tela os número iguais e as posições que eles se encontram.
+20 - Faça um programa que leia um vetor de 5 posições para números reais e, depois, um  código inteiro. Se o código for zero, finalize o programa; se for 1, mostre o vetor na ordem direta; se for 2, mostre o vetor na ordem inversa. Caso o código for diferente de 1 e 2 escreva uma mensagem informando que o código é inválido.
+22 - Faça um programa que leia um vetor de 10 números inteiros. Leia um número x. Conte os múltiplos  x existem no vetor e mostre as suas posições.
+21 - Faça um programa que crie um vetor de 20 posições preenchido com os 20 menores números primos positivos.
+22 - Faça um programa que leia dois vetores de 10 posições e calcule outro vetor contendo, nas posições pares os valores do primeiro vetor e nas posições ímpares os valores do segundo vetor.
+23 - Faça um programa que calcule o desvio padrão de um vetor  V contendo n = 10 números,  onde m é a média do vetor. 
+24 - Faça um programa para ler 10 números DIFERENTES a serem armazenados em um  vetor. Os dados deverão ser armazenados no vetor na ordem que forem sendo lidos, sendo que caso o usuário digite um número que já foi digitado anteriormente, o programa deverá pedir para ele digitar outro número. Note que cada valor digitado pelo usuário deve ser pesquisado no vetor, verificando se ele existe entre os números que já foram fornecidos. Exibir na tela o vetor final que foi digitado.
+25 - Peça ao usuário para digitar dez valores numéricos e ordene por ordem crescente esses  valores, guardando-os num vetor. Ordene o valor assim que ele for digitado. Mostre ao final na tela os valores em ordem.
+26 - Escreva um programa que leia um número inteiro positivo  e em seguida imprima n linhas do chamado Triângulo de Pascal:

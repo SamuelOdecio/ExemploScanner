@@ -22,7 +22,8 @@ public class Exercicio16 {
         tabuadaFinal = entrada.nextInt();
 
         while (tabuadaInicio != tabuadaFinal) {
-            
+            System.out.println("TABUADA: " + tabuadaInicio + " * " + tabuadaFinal + " = " + (tabuadaInicio * tabuadaFinal));
+            tabuadaInicio++;
         }
     }
 }
